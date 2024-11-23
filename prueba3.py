@@ -8,11 +8,6 @@ Original file is located at
 """
 
 
-import requests
-import pandas as pd
-import streamlit as st
-import matplotlib.pyplot as plt
-
 # Función para obtener datos desde la API
 @st.cache
 def fetch_country_data():
